@@ -11,12 +11,13 @@ import {
 import React, { useContext } from "react"
 import { AuthContext } from "../../../context/authContext/authContext"
 import PeopleAltRoundedIcon from "@material-ui/icons/PeopleAltRounded"
-import SupervisedUserCircleRoundedIcon from "@material-ui/icons/SupervisedUserCircleRounded"
+// import SupervisedUserCircleRoundedIcon from "@material-ui/icons/SupervisedUserCircleRounded"
 import BookmarksRoundedIcon from "@material-ui/icons/BookmarksRounded"
 import EventNoteRoundedIcon from "@material-ui/icons/EventNoteRounded"
 import { useHistory } from "react-router-dom"
 import { NoticeCard } from "./Notice/NoticeCard"
 import { API } from "../../../utils/proxy"
+import ChatIcon from '@mui/icons-material/Chat';
 
 export const HomeSideBar = () => {
   const authContext = useContext(AuthContext)
@@ -65,10 +66,10 @@ export const HomeSideBar = () => {
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              <SupervisedUserCircleRoundedIcon />
+              <ChatIcon />
             </ListItemIcon>
             <ListItemText
-              primary={<Typography variant="button">Groups</Typography>}
+              primary={<Typography variant="button">Chats</Typography>}
             />
           </ListItem>
           <ListItem button>

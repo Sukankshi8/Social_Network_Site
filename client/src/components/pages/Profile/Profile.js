@@ -210,9 +210,9 @@ export const Profile = ({ match }) => {
                           )}
                         </Grid>
                         <Grid item>
-                          <Typography variant="caption">
+                          {/* <Typography variant="caption">
                             Year {userContext.user.year}
-                          </Typography>
+                          </Typography> */}
                         </Grid>
                       </Grid>
                       <Typography variant="body1">
@@ -220,7 +220,7 @@ export const Profile = ({ match }) => {
                       </Typography>
 
                       <Typography variant="body2">
-                        Gautam Buddha University
+                        IIIT Allahabad
                       </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
