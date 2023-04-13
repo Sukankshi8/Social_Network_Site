@@ -91,7 +91,7 @@ export const Contacts = () => {
               </Grid>
             </Grid>
             <List component="nav">
-              {userContext.user.friendList.map((user, i) => {
+              {userContext.user && userContext.user.friendList.map((user, i) => {
                 return (
                   <ListItem
                     button
