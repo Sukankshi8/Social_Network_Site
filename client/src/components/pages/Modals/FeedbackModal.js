@@ -63,12 +63,14 @@ export const FeedbackModal = ({ show, onhide }) => {
         setLoading(false)
         setError("")
         setColor("green")
+        onhide();
         // console.log(response)
       }
     } catch (error) {
       setLoading(false)
       setColor("tomato")
       setError(error.response.data.errorMsg)
+      onhide();
       // console.log(error.response.data.errorMsg)
     }
   }

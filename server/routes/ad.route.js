@@ -22,7 +22,7 @@ const router = express.Router();
 router.param("userId", getUserById);
 router.param("adId", getAdById);
 
-// create ads
+// create announcements
 router.post(
 	"/create/ad/:userId",
 	isSignedIn,
