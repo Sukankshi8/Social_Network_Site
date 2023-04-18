@@ -68,7 +68,7 @@ export const Contacts = () => {
   // }
 
   return (
-    <div className="mt-3">
+    <div className="text-center">
       <h6>
         <b>Contacts</b>
       </h6>
