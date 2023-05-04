@@ -13,7 +13,7 @@ import { AuthContext } from "../../../context/authContext/authContext"
 import PeopleAltRoundedIcon from "@material-ui/icons/PeopleAltRounded"
 // import SupervisedUserCircleRoundedIcon from "@material-ui/icons/SupervisedUserCircleRounded"
 import BookmarksRoundedIcon from "@material-ui/icons/BookmarksRounded"
-import EventNoteRoundedIcon from "@material-ui/icons/EventNoteRounded"
+//import EventNoteRoundedIcon from "@material-ui/icons/EventNoteRounded"
 import { useHistory } from "react-router-dom"
 import { NoticeCard } from "./Notice/NoticeCard"
 import { API } from "../../../utils/proxy"
@@ -72,14 +72,6 @@ export const HomeSideBar = () => {
               primary={<Typography variant="button">Chats</Typography>}
             />
           </ListItem>
-          <ListItem button>
-            <ListItemIcon>
-              <EventNoteRoundedIcon />
-            </ListItemIcon>
-            <ListItemText
-              primary={<Typography variant="button">Events</Typography>}
-            />
-          </ListItem>
           <ListItem
             button
             onClick={() => {
@@ -90,20 +82,7 @@ export const HomeSideBar = () => {
               <BookmarksRoundedIcon />
             </ListItemIcon>
             <ListItemText
-              primary={<Typography variant="button">Notices</Typography>}
-            />
-          </ListItem>
-          <ListItem
-            button
-            onClick={() => {
-              history.push(`/bookmarks`)
-            }}
-          >
-            <ListItemIcon>
-              <BookmarksRoundedIcon />
-            </ListItemIcon>
-            <ListItemText
-              primary={<Typography variant="button">Bookmarks</Typography>}
+              primary={<Typography variant="button">Announcements</Typography>}
             />
           </ListItem>
         </List>

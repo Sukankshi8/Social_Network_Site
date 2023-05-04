@@ -54,9 +54,8 @@ export const Login = () => {
             </Grid>
             <Grid item className="text-center">
               <h1 id="header-name" style={{ fontSize: "40px" }}>
-                My Fellow
+                OMOIDE
               </h1>
-              {/* <h6>connect, share and poll</h6> */}
               <Paper elevation={3}>
                 <Box py={6} px={3} width="400px">
                   <form onSubmit={handleFormSubmit}>

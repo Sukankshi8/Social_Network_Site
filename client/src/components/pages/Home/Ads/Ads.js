@@ -46,7 +46,6 @@ export const Ads = () => {
               alignItems="center"
             >
               <FontAwesomeIcon icon={faPencilAlt} fontSize="large" />
-              <h6 className="mt-2">No ads out there</h6>
             </Grid>
           </div>
         )}

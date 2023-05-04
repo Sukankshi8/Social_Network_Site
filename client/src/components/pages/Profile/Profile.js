@@ -296,10 +296,10 @@ export const Profile = ({ match }) => {
                             handleClick("ads")
                           }}
                         >
-                          Ads
+                          ANNOUNCEMENTS
                         </Button>
                       </Grid>
-                      {userContext.user._id === authContext.user._id && (
+                      {/* {userContext.user._id === authContext.user._id && (
                         <Grid item xs={3}>
                           <Button
                             variant="text"
@@ -315,7 +315,7 @@ export const Profile = ({ match }) => {
                             Bookmarks
                           </Button>
                         </Grid>
-                      )}
+                      )} */}
                     </Grid>
                   </Paper>
                   {data ? (
