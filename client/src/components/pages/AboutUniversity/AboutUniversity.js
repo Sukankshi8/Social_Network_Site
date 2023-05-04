@@ -29,12 +29,12 @@ export const AboutUniversity = () => {
 										container
 										justify="center"
 										alignContent="center">
-										<CardMedia
+										{/* <CardMedia
 											component="img"
 											style={{ maxWidth: "150px" }}
 											image="gbu_logo.png"
 											label={"Logo"}
-										/>
+										/> */}
 									</Grid>
 								</Grid>
 								<Grid item xs={12} md={12}>

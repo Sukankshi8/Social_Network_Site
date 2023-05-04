@@ -70,7 +70,7 @@ export const Bookmarks = () => {
                     color={typeOf === "ads" ? "primary" : "default"}
                     onClick={() => handleBtnClick("ads")}
                   >
-                    Ads
+                    ANNOUNCEMENTS
                   </Button>
                 </Grid>
                 <Grid>
